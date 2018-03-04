@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+
+.x.axis path {
+display: none;
+}
+
+.line {
+fill: none;
+stroke: steelblue;
+stroke-width: 1.5px;
+}
+
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+
+.container {
+	width: 100%;
+}
+
+.header {
+	width: 1080px;
+	height: 90px;
+	font: bold 60px arial, san-serif;
+	color: #888888;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px solid #000000;
+}
+
+.topnav {
+	width: 1080px;
+	height: 25px;
+	border-bottom: 1px solid #000000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wrap {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+.leftdiv {
+	width: 500px;
+	height: auto;
+	float: left;
+	color: #000000;
+	font: 25px arial, san-serif;
+	border-right: 1px solid #000000;
+}
+
+.rightdiv {
+	width: 500px;
+	height: auto;
+	float: left;
+	color: #000000;
+	font: 25px arial, san-serif;
+	border-right: 1px solid #000000;
+}
+
+.leftdivheader {
+	width: 700px;
+	height: 25px;
+	color: #000000;
+	font: bold 25px arial, san-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.fulldiv {
+	width: 1080px;
+	border-top: 1px solid #000000;
+	margin-left: auto;
+	margin-right: auto;
+	font: 14px arial, san-serif;
+}
+
+.fulldivheader {
+	width: 1080px;
+	height: 25px;
+	font: bold 25px arial, san-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #000000;
+}
+
+
+</style>
+
+
+<body>
+
+<div class="wrap">
+	<div class="leftdiv", id="area1"> 
+		Celer Network
+	</div>
+	<div class="rightdiv", id="area2"> 
+		Lighting Network
+	</div>
+</div>
+<div class="fulldiv", id="area3">
+</div>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="routing_dbr_replay.js"></script>
+<script src="line_graph.js"></script>
+</body>
