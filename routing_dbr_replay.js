@@ -169,7 +169,7 @@ d3.json("topology.json", function(error, graph) {
 
 
 
-  d3.json("SP_routes.json", function(routes) {
+  d3.json("Lightning_routes.json", function(routes) {
 
   
     function routingHighlight() {
